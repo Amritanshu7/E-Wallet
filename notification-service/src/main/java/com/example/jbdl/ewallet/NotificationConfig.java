@@ -38,8 +38,8 @@ public class NotificationConfig {
         JavaMailSenderImpl javaMailSender = new JavaMailSenderImpl();
         javaMailSender.setHost("smtp.gmail.com");
         javaMailSender.setPort(587);
-        javaMailSender.setUsername("ewallet.gfg@gmail.com");
-        javaMailSender.setPassword("geeks@123");
+        javaMailSender.setUsername("ewallet@gmail.com");
+        javaMailSender.setPassword("password@123");
 
         Properties properties = javaMailSender.getJavaMailProperties();
         properties.put("mail.smtp.starttls.enable", true);
